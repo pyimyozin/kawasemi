@@ -1,0 +1,246 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+  background: #363333;
+}
+
+.navbar-toggler-icon{
+  background: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #363333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.intro{
+  height: 700px;
+  background-image:
+  linear-gradient(45deg,
+    rgba(15, 10, 10, 0.50),
+    rgba(15,10,10, 0.50)), url("../img/sec_nav_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.logo_name{
+  font-size: 30px;
+}
+
+.sec_logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.logo-item{
+  padding-right:10%;
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+}
+
+.nav-item:hover{
+  color: rgb(48, 21, 21);
+  
+}
+
+@media only screen and (max-width: 575px) {
+  
+    .logo-item{
+      margin: auto;
+      padding: auto;
+      padding-right:0;
+      padding-top: 0;
+      align-items: center;
+  }
+   
+}
+
+@media only screen and (max-width: 993px){
+  .address{
+    display: block;
+    width: 100%;
+  }
+  .welcome_image1,.welcome_image2{
+    margin: auto;
+  }  
+}
+
+.reservation{
+  background: #363333;
+  color: white;
+  width: 100px;
+}
+
+.category1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.welcome_image1{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 60%;
+  border-radius: 70px;
+  
+}
+
+.welcome_image2{
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  width: 45%;
+  height: 60%;
+  border-radius: 70px;  
+}
+
+.category2 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.welcome_image3 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 60%;
+  border-radius: 70px;
+  
+}
+
+.welcome_image4{
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  width: 45%;
+  height: 60%;
+  border-radius: 70px;  
+}
+
+.menu{
+  background: #363333;
+}
+
+.menu>h1{
+  text-align: center;
+  color: aliceblue;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  width: 85%;
+  border-top: 5px solid rgb(233, 226, 226);
+  background-color: aliceblue;
+}
+
+.menu_letter{
+  text-align: center;
+  color: aliceblue;
+}
+
+.menu_item{
+ justify-content: space-around;
+ margin-right: 12px;
+}
+
+.button-container-div {
+  text-align: center;
+  margin-right: 50px;
+}
+
+button{
+  background: black;
+  color: aliceblue;
+}
+
+button:hover{
+  background: rgb(61, 16, 16);
+}
+
+input{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgb(68, 64, 64);
+}
+
+.gallery{
+  width:80%;
+  margin:0 auto;
+  position: relative;
+}
+
+.product-container>img{
+  width: 200px;
+  height: 200px;
+}
+#image1{
+  width: 200px;
+  height: 200px;
+}
+
+#image2{
+  width: 250px;
+  height: 200px;
+}
+
+#image3{
+  width: 200px;
+  height: 200px;
+}
+
+#image4{
+  width: 200px;
+  height: 200px;
+}
+
+.pre-btn, .nxt-btn{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  align-items: center;
+}
+
+.nxt-btn {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.product-container{
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.product-container::-webkit-scrollbar{
+  display: none;
+}
+
+.footer{
+  background: #363333;
+  color: aliceblue;
+}
+
